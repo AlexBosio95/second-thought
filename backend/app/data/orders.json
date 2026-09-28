@@ -1,0 +1,33 @@
+{
+  "ORD-9182": {
+    "customer": "Alice",
+    "status": "in_transit",
+    "amount": 249,
+    "currency": "EUR",
+    "carrier": "DHL",
+    "tracking_status": "in transit",
+    "estimated_delivery": "tomorrow",
+    "address": "Via Roma 10, Torino",
+    "refund_status": "not_eligible"
+  },
+  "ORD-4412": {
+    "customer": "Bob",
+    "status": "lost",
+    "amount": 79,
+    "currency": "EUR",
+    "carrier": "UPS",
+    "tracking_status": "confirmed lost",
+    "address": "Via Po 8, Torino",
+    "refund_status": "eligible"
+  },
+  "ORD-7731": {
+    "customer": "Claire",
+    "status": "processing",
+    "amount": 120,
+    "currency": "EUR",
+    "carrier": null,
+    "tracking_status": "not dispatched",
+    "address": "Via Verdi 3, Milano",
+    "refund_status": "eligible_for_cancellation"
+  }
+}
